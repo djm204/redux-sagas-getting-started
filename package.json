@@ -21,9 +21,11 @@
     "url": "https://github.com/djm204/redux-sagas-getting-started/issues"
   },
   "homepage": "https://github.com/djm204/redux-sagas-getting-started#readme",
-    "dependencies": {
+  "dependencies": {
+    "babel-polyfill": "6.3.14",
     "history": "^4.6.1",
     "http-server": "^0.10.0",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
@@ -32,8 +34,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-saga": "^0.15.3",
     "redux-thunk": "^2.2.0",
-    "webpack": "^2.6.1",
-    "babel-polyfill": "6.3.14"
+    "webpack": "^2.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.1.18",
