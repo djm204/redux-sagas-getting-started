@@ -1,5 +1,27 @@
 {
-  "dependencies": {
+  "name": "redux-sagas-intro",
+  "version": "1.0.0",
+  "description": "Redux Sagas intro",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djm204/redux-sagas-getting-started.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "redux-sagas"
+  ],
+  "author": "David Mendez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djm204/redux-sagas-getting-started/issues"
+  },
+  "homepage": "https://github.com/djm204/redux-sagas-getting-started#readme",
+    "dependencies": {
     "history": "^4.6.1",
     "http-server": "^0.10.0",
     "react": "^15.5.4",
@@ -10,6 +32,19 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-saga": "^0.15.3",
     "redux-thunk": "^2.2.0",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "babel-polyfill": "6.3.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-core": "6.4.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "budo": "^8.0.4",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
   }
 }
